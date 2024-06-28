@@ -1,0 +1,69 @@
+@import "./sass/vendors/bootstrap.scss";
+
+@import "./sass/abstracts/mixins";
+@import "./sass/abstracts/variables";
+@import "./sass/abstracts/helpers";
+
+@import "./sass/base/base";
+@import "./sass/base/typography";
+
+@import "./sass/components/buttons";
+
+@import "./sass/layout/footer";
+@import "./sass/layout/sections";
+
+@import "./sass/sections/about";
+@import "./sass/sections/contact";
+@import "./sass/sections/hero";
+@import "./sass/sections/projects";
+
+.tech-stack {
+    margin: 12px 0;
+}
+
+.tech-stack h3 {
+    margin: 0;
+    text-align: left;
+}
+
+.technologies {
+    margin: 24px 0 32px 0;
+}
+
+.devicons, .devicons-color {
+    display: flex;
+    flex-wrap: wrap;
+}
+.devicons i {
+    font-size: 3rem;
+}
+
+ .devicons-color i {
+    font-size: 2.5rem;
+    margin: 6px;
+ }
+
+.stacktooltip {
+    position: relative;
+    display: inline-block;
+    margin: 16px;
+}
+
+.stacktooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    font-size: 1.5rem;
+    padding: 6px 0;
+    border-radius: 4px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 1;
+}
+
+.stacktooltip:hover .tooltiptext {
+    visibility: visible;
+}
